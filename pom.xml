@@ -7,27 +7,19 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.sagebionetworks</groupId>
-	<artifactId>platform</artifactId>
+	<artifactId>workflow</artifactId>
 	<!-- This is not the same as the application version. This is a constant. -->
-	<version>0.13.4-SNAPSHOT</version>
+	<version>0.1.13.1</version>
 	<packaging>pom</packaging>
 	<url>http://www.sagebase.org/</url>
-	<scm>
-		<connection>scm:svn:https://sagebionetworks.jira.com/svn/PLFM/trunk
-		</connection>
-		<url>http://sagebionetworks.jira.com/source/browse/PLFM</url>
-	</scm>
-	<name>Sage Bionetworks Platform</name>
+	<name>Sage Bionetworks Workflow</name>
 	<description>
 		Sage Bionetworks Platform
 	</description>
 
 	<modules>
 		<module>lib</module>
-		<module>services</module>
-		<module>client</module>
 		<module>tools</module>
-		<module>integration-test</module>
 	</modules>
 
 	<repositories>
