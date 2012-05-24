@@ -6,11 +6,11 @@
 
   <parent>
     <artifactId>tools</artifactId>
-    <groupId>org.sagebionetworks</groupId>
+    <groupId>org.sagebionetworks.workflow</groupId>
     <version>0.1.13.1</version>
   </parent>
 
-  <groupId>org.sagebionetworks</groupId>
+  <groupId>org.sagebionetworks.workflow</groupId>
   <artifactId>tcgaWorkflow</artifactId>
   <packaging>jar</packaging>
   <name>tcgaWorkflow</name>
@@ -18,7 +18,7 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.sagebionetworks</groupId>
+      <groupId>org.sagebionetworks.workflow</groupId>
       <artifactId>lib-workflow</artifactId>
     </dependency>
 

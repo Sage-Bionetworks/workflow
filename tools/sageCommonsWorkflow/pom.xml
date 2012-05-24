@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>tools</artifactId>
-    <groupId>org.sagebionetworks</groupId>
+    <groupId>org.sagebionetworks.workflow</groupId>
     <version>0.1.13.1</version>
   </parent>
-  <groupId>org.sagebionetworks</groupId>
+  <groupId>org.sagebionetworks.workflow</groupId>
   <artifactId>sageCommonsWorkflow</artifactId>
   <version>0.1.13.1</version>
   <name>sageCommonsWorkflow</name>
@@ -16,7 +16,7 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.sagebionetworks</groupId>
+      <groupId>org.sagebionetworks.workflow</groupId>
       <artifactId>lib-workflow</artifactId>
     </dependency>
 

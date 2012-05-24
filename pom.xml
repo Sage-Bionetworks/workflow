@@ -6,7 +6,7 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.sagebionetworks</groupId>
+	<groupId>org.sagebionetworks.workflow</groupId>
 	<artifactId>workflow</artifactId>
 	<!-- This is not the same as the application version. This is a constant. -->
 	<version>0.1.13.1</version>
@@ -14,7 +14,7 @@
 	<url>http://www.sagebase.org/</url>
 	<name>Sage Bionetworks Workflow</name>
 	<description>
-		Sage Bionetworks Platform
+		Sage Bionetworks Platform Workflow
 	</description>
 
 	<modules>
@@ -251,45 +251,45 @@
 
 			<!-- Synapse internal dependencies -->
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>schema-to-pojo-lib</artifactId>
 				<version>${schema-to-pojo.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>schema-to-pojo-org-json</artifactId>
 				<version>${schema-to-pojo.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>schema-to-pojo-gwt</artifactId>
 				<version>${schema-to-pojo.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>services-authentication</artifactId>
 				<version>${project.version}</version>
 				<type>war</type>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>services-repository</artifactId>
 				<version>${project.version}</version>
 				<type>war</type>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>portal</artifactId>
 				<version>${project.version}</version>
 				<type>war</type>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>portal</artifactId>
 				<version>${project.version}</version>
 				<classifier>gwt-rpc-assembly</classifier>
@@ -297,73 +297,73 @@
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-auto-generated</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-shared-models</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-communicationUtilities</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-id-generator</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-concepts</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-jdomodels</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-models</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-securityUtilities</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-stackConfiguration</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>lib-workflow</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>synapseJavaClient</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>synapsePythonClient</artifactId>
 				<version>${project.version}</version>
 				<classifier>synapse-python-client-assembly</classifier>
@@ -371,7 +371,7 @@
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>synapseRClient</artifactId>
 				<version>${project.version}</version>
 				<classifier>synapse-r-client-assembly</classifier>
@@ -379,7 +379,7 @@
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>DatasetMetadataLoader</artifactId>
 				<version>${project.version}</version>
 				<classifier>dataset-metadata-loader-assembly</classifier>
@@ -387,31 +387,31 @@
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>wikiutil</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>auth-util</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>tool-migration-utility</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>tcgaWorkflow</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>org.sagebionetworks</groupId>
+				<groupId>org.sagebionetworks.workflow</groupId>
 				<artifactId>gePipeline</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -458,7 +458,7 @@
 							<pluginExecutions>
 								<pluginExecution>
 									<pluginExecutionFilter>
-										<groupId>org.sagebionetworks</groupId>
+										<groupId>org.sagebionetworks.workflow</groupId>
 										<artifactId>schema-to-pojo-maven-plugin</artifactId>
 										<versionRange>[0,)</versionRange>
 										<goals>
@@ -585,7 +585,7 @@
 					</configuration>
 				</plugin>
 				<plugin>
-					<groupId>org.sagebionetworks</groupId>
+					<groupId>org.sagebionetworks.workflow</groupId>
 					<artifactId>schema-to-pojo-maven-plugin</artifactId>
 					<version>${schema-to-pojo.version}</version>
 				</plugin>

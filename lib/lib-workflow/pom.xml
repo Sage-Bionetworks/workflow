@@ -5,11 +5,11 @@
 
   <parent>
     <artifactId>lib</artifactId>
-    <groupId>org.sagebionetworks</groupId>
+    <groupId>org.sagebionetworks.workflow</groupId>
     <version>0.1.13.1</version>
   </parent>
 
-  <groupId>org.sagebionetworks</groupId>
+  <groupId>org.sagebionetworks.workflow</groupId>
   <artifactId>lib-workflow</artifactId>
   <version>0.1.13.1</version>
   <packaging>jar</packaging>
@@ -72,31 +72,11 @@
     </dependency>
 
 
-    <!-- Platform Dependencies -->
-    <dependency>
-      <groupId>org.sagebionetworks</groupId>
-      <artifactId>lib-stackConfiguration</artifactId>
-    </dependency>
-
     <dependency>
       <groupId>org.sagebionetworks</groupId>
       <artifactId>synapseJavaClient</artifactId>
+      <version>0.13.3</version>
     </dependency>
-
-    <dependency>
-      <groupId>org.sagebionetworks</groupId>
-      <artifactId>lib-auto-generated</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.sagebionetworks</groupId>
-      <artifactId>schema-to-pojo-gwt</artifactId>
-    </dependency>
-
-	<dependency>
-	  <groupId>org.sagebionetworks</groupId>
-	  <artifactId>lib-communicationUtilities</artifactId>
-	</dependency>
 
   </dependencies>
 

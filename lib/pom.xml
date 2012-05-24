@@ -4,28 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.sagebionetworks</groupId>
-		<artifactId>platform</artifactId>
+		<groupId>org.sagebionetworks.workflow</groupId>
+		<artifactId>workflow</artifactId>
 		<version>0.1.13.1</version>
 	</parent>
 
-	<groupId>org.sagebionetworks</groupId>
+	<groupId>org.sagebionetworks.workflow</groupId>
 	<artifactId>lib</artifactId>
 	<packaging>pom</packaging>
 	<name>Libraries</name>
 
 	<modules>
-		<module>stackConfiguration</module>
-		<module>id-generator</module>
-		<module>lib-auto-generated</module>
-		<module>lib-shared-models</module>
-		<module>lib-concepts</module>
 		<module>lib-workflow</module>
-		<module>communicationUtilities</module>
-		<module>securityUtilities</module>
-		<module>models</module>
-		<module>jdomodels</module>
-
 	</modules>
 
 </project>

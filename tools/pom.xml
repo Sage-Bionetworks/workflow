@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
-		<artifactId>platform</artifactId>
-		<groupId>org.sagebionetworks</groupId>
+		<artifactId>workflow</artifactId>
+		<groupId>org.sagebionetworks.workflow</groupId>
 		<version>0.1.13.1</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.sagebionetworks</groupId>
+	<groupId>org.sagebionetworks.workflow</groupId>
 	<artifactId>tools</artifactId>
 	<packaging>pom</packaging>
 	<name>Platform Tools</name>
 
     <modules>
       <module>tcgaWorkflow</module>
-      <module>wikiutil</module>
       <module>gePipeline</module>
-      <module>bccSetup</module>
-      <module>SynapseDeployer</module>
-      <module>tool-migration-utility</module>
       <module>sageCommonsWorkflow</module>
   </modules>
 
